@@ -72,19 +72,20 @@ nav a:nth-child(4) {
 
 /*-----header-----*/
 header {
-    margin: 100px 0 200px 0;
+    margin: 100px 0 300px 0;
     text-align: center;
 }
 header p {
     width: 65%;
     margin: 30px auto 0 auto;
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
 }
 header h1 {
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Bebas', serif;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 header a {
     color: white;
@@ -107,11 +108,11 @@ header a {
     margin:1%;
     width:97%;
 }
-.projects h2 {
-    color: white;
+.projects p {
+    color: darkorange;
     font-size: 20px;
     text-align: left;
-    margin-left: 1.5%;
+    margin-left: 1%;
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
 }
@@ -162,12 +163,11 @@ header a {
 .graphicdesign a img {
     margin:1%;
 }
-.graphicdesign h2 {
-    color: white;
+.graphicdesign p {
+    color: darkorange;
     font-size: 20px;
     text-align: left;
-    margin-left: 1.5%;
-    letter-spacing: 1px;
+    margin-left: 1%;
     font-family: 'Raleway', sans-serif;
 }
 .gd1 {
@@ -201,38 +201,44 @@ header a {
     width: 100%;
     margin-bottom: 15px;
 }
-.performance h2 {
-    color: white;
+.performance p {
+    color: darkorange;
     font-size: 20px;
     text-align: left;
-    margin-left: 1.5%;
-    letter-spacing: 1px;
+    margin-left: 1%;
     font-family: 'Raleway', sans-serif;
 }
-.performance a img {
+.performance img {
     margin:1%;
 }
 .pe1 {
-    width: 97%;
+    width: 98%;
 }
 .pe2 {
-    width: 31.9%;
+    width: 32.1%;
 }
 .pe3 {
-    width: 63.5%;
+    width: 63.9%;
 }
 .pe4 {
-    width: 97%;
+    width: 98%;
 }
 /*-----footer-----*/
 footer {
     text-align: center;
-    margin: 50px 0;
+    margin: 45px 0;
 }
 footer p{
     color: #404348;   
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
+}
+.email {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    line-height: 30px
 }
 
 /*-----responsive-----*/
