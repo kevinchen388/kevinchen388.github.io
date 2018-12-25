@@ -39,6 +39,10 @@ p {
     color: white;
     font-size: 16px;
 }
+h3 {
+    color: white;
+    font-size: 4vw;
+}
 
 /*-----nav-----*/
 nav {
@@ -95,6 +99,10 @@ header a {
     margin-bottom: 15px;
     
 }
+.projects img {
+    
+    width:100%;
+}
 .projects a img {
     margin:1%;
     width:97%;
@@ -107,6 +115,43 @@ header a {
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
 }
+/*----overlay----*/
+.projects .container {
+    position: relative;
+    width: 97%;
+    margin:1%;
+}
+.projects .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    overflow: hidden;
+}
+
+.projects .text {
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 60%;
+    font-family: 'Raleway', sans-serif;
+}
+.projects .container:hover .overlay {
+    opacity: 0.75;
+}
+
 
 /*-----graphicdesign-----*/
 .graphicdesign {
