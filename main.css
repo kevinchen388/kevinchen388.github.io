@@ -1,0 +1,201 @@
+/*-----Global-----*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 0;
+    vertical-align: baseline; 
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    background-image:url(images/Design/BG1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    width: 90%;
+    margin: 15px auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h1 {
+    color: white;
+    font-size: 48px;
+}
+p {
+    color: white;
+    font-size: 16px;
+}
+
+/*-----nav-----*/
+nav {
+    height: 100px;
+    line-height: 100px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a img {
+    vertical-align: middle;
+}
+nav a:nth-child(2) {
+    float: right;
+}
+nav a:nth-child(3) {
+    float: right;
+}
+nav a:nth-child(4) {
+    float: right;
+}
+
+/*-----header-----*/
+header {
+    margin: 100px 0 200px 0;
+    text-align: center;
+}
+header p {
+    width: 65%;
+    margin: 30px auto 0 auto;
+}
+header h1 {
+    color: #A94A2A;
+    font-size: 50px;
+}
+header a {
+    color: white;
+    font-size: 16px;
+}
+
+/*-----projects-----*/
+.projects {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.projects a img {
+    margin:1%;
+    width:97%;
+}
+.projects h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*-----graphicdesign-----*/
+.graphicdesign {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.graphicdesign a img {
+    margin:1%;
+}
+.graphicdesign h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.gd1 {
+    width: 62%;
+}
+.gd2 {
+    width: 32.8%;
+}
+.gd3 {
+    width: 36%;
+}
+.gd4 {
+    width: 59%;
+}
+.gd5 {
+    width: 26.5%;
+}
+.gd6 {
+    width: 40%;
+}
+.gd7 {
+    width: 26.5%;
+}
+.gd8 {
+    width: 97%;
+}
+
+/*-----performance-----*/
+.performance {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.performance h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.performance a img {
+    margin:1%;
+}
+.pe1 {
+    width: 97%;
+}
+.pe2 {
+    width: 31.7%;
+}
+.pe3 {
+    width: 63.5%;
+}
+.pe4 {
+    width: 97%;
+}
+/*-----footer-----*/
+footer {
+    text-align: center;
+    margin: 50px 0;
+}
+footer p{
+    color: #404348;   
+    font-size: 16px;
+}
+
+/*-----responsive-----*/
+@media only screen and (max-width: 768px) {
+    header {
+        width: 96%;
+        margin: 30px auto 100px auto;
+        text-align: left;
+    }
+    header p {
+        width: 96%;
+        margin: 30px auto 100px auto;
+        text-align: left;
+    }
+    h2 {
+        text-align: left;
+    }
+    footer {
+        text-align: left;
+        width: 96%;
+        margin: 20px auto 50px auto;
+    }
+    .projects a img {
+        margin: 2%;
+        width: 96%;
+    }
+    .graphicdesign a img {
+        margin: 2%;
+        width: 96%;
+    }
+    .performance a img {
+        margin: 2%;
+        width: 96%;
+    }
+}
