@@ -101,12 +101,10 @@ header a {
     
 }
 .projects img {
-    
     width:100%;
 }
 .projects a img {
-    margin:1%;
-    width:97%;
+    width: 100%;
 }
 .projects p {
     color: darkorange;
