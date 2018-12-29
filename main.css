@@ -97,7 +97,7 @@ header a {
 .projects {
     text-align: center;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     
 }
 .projects img {
@@ -115,11 +115,42 @@ header a {
     font-family: 'Raleway', sans-serif;
 }
 /*----overlay----*/
-.projects .container {
+.projects .container1 {
     position: relative;
-    width: 97%;
-    margin:1%;
+    width: 98%;
+    margin:1% 1% 2% 1%;
 }
+.projects .container1:hover .overlay {
+    opacity: 0.75;
+}
+
+.projects .container2 {
+    position: relative;
+    width: 98%;
+    margin:1% 1% 2% 1%;
+}
+.projects .container2:hover .overlay {
+    opacity: 0.75;
+}
+
+.projects .container3 {
+    position: relative;
+    width: 98%;
+    margin:1% 1% 2% 1%;
+}
+.projects .container3:hover .overlay {
+    opacity: 0.75;
+}
+
+.projects .container4 {
+    position: relative;
+    width: 98%;
+    margin:1% 1% 1% 1%;
+}
+.projects .container4:hover .overlay {
+    opacity: 0.75;
+}
+
 .projects .overlay {
     position: absolute;
     top: 0;
@@ -147,19 +178,15 @@ header a {
     width: 60%;
     font-family: 'Raleway', sans-serif;
 }
-.projects .container:hover .overlay {
-    opacity: 0.75;
-}
 
 
 /*-----graphicdesign-----*/
 .graphicdesign {
     text-align: center;
     width: 100%;
-    margin-bottom: 15px;
 }
 .graphicdesign a img {
-    margin:1%;
+    margin: 1%;
 }
 .graphicdesign p {
     color: darkorange;
@@ -190,7 +217,7 @@ header a {
     width: 26.6%;
 }
 .gd8 {
-    width: 97.5%;
+    width: 98%;
 }
 
 /*-----performance-----*/
@@ -259,16 +286,12 @@ footer p{
         width: 96%;
         margin: 20px auto 50px auto;
     }
-    .projects a img {
-        margin: 2%;
-        width: 96%;
-    }
     .graphicdesign a img {
-        margin: 2%;
-        width: 96%;
+        margin: 1%;
+        width: 97%;
     }
-    .performance a img {
-        margin: 2%;
-        width: 96%;
+    .performance img {
+        margin: 1%;
+        width: 97%;
     }
 }
