@@ -41,7 +41,7 @@ p {
 }
 h3 {
     color: white;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 /*-----nav-----*/
@@ -186,7 +186,7 @@ header a {
     width: 100%;
 }
 .graphicdesign a img {
-    margin: 1%;
+    width: 100%;
 }
 .graphicdesign p {
     color: darkorange;
@@ -195,30 +195,134 @@ header a {
     margin-left: 1%;
     font-family: 'Raleway', sans-serif;
 }
-.gd1 {
+
+
+/*----overlay----*/
+.graphicdesign .containergd1 {
+    position: relative;
     width: 63.3%;
+    float: left;
+    margin:1% 1% 1% 1%;
+ 
 }
-.gd2 {
+.graphicdesign .containergd1:hover .overlay {
+    opacity: 0.75;
+}
+
+.graphicdesign .containergd2 {
+    position: relative;
     width: 32.6%;
+    float: left;
+    margin:1% 1% 1% 1%;
 }
-.gd3 {
+
+.graphicdesign .containergd2:hover .overlay {
+    opacity: 0.75;
+}
+
+.graphicdesign .containergd3 {
+    position: relative;
     width: 36.7%;
+    float: left;
+    margin:1% 1% 1% 1%;
+    
 }
-.gd4 {
+
+.graphicdesign .containergd3:hover .overlay {
+    opacity: 0.75;
+}
+
+
+.graphicdesign .containergd4 {
+    position: relative;
     width: 59%;
+    float: left;
+    margin:1% 1% 1% 1%;
 }
-.gd5 {
+
+.graphicdesign .containergd4:hover .overlay {
+    opacity: 0.75;
+}
+
+.graphicdesign .containergd5 {
+    position: relative;
     width: 27.2%;
+    float: left;
+    margin:1% 1% 1% 1%;
 }
-.gd6 {
+
+.graphicdesign .containergd5:hover .overlay {
+    opacity: 0.75;
+}
+
+.graphicdesign .containergd6 {
+    position: relative;
     width: 40.1%;
+    float: left;
+    margin:1% 1% 1% 1%;
 }
-.gd7 {
+
+.graphicdesign .containergd6:hover .overlay {
+    opacity: 0.75;
+}
+
+.graphicdesign .containergd7 {
+    position: relative;
     width: 26.6%;
+    float: left;
+    margin:1% 1% 1% 1%;
 }
-.gd8 {
+
+.graphicdesign .containergd7:hover .overlay {
+    opacity: 0.75;
+}
+
+.graphicdesign .containergd8 {
+    position: relative;
     width: 98%;
+    float: left;
+    margin:1% 1% 1% 1%;
 }
+
+.graphicdesign .containergd8:hover .overlay {
+    opacity: 0.75;
+}
+
+
+.graphicdesign .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    overflow: hidden;
+}
+
+.graphicdesign .text {
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+.graphicdesign h3 {
+    color: white;
+    font-size: 3vw;
+}
+
 
 /*-----performance-----*/
 .performance {
