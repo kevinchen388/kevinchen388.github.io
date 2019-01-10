@@ -390,12 +390,56 @@ footer p{
         width: 96%;
         margin: 20px auto 50px auto;
     }
-    .graphicdesign a img {
-        margin: 1%;
-        width: 97%;
-    }
     .performance img {
         margin: 1%;
         width: 97%;
+    }
+    .graphicdesign .containergd1 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
+    }
+    .graphicdesign .containergd2 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
+    }
+    .graphicdesign .containergd3 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
+    }
+    .graphicdesign .containergd4 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
+    }
+    .graphicdesign .containergd5 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
+    }
+    .graphicdesign .containergd6 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
+    }
+    .graphicdesign .containergd7 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
+    }
+    .graphicdesign .containergd8 {
+    position: relative;
+    width: 97%;
+    float: left;
+    margin:1%;
     }
 }
