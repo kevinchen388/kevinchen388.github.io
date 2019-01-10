@@ -1,3 +1,3 @@
 # kevinchen388.github.io
-Portfolio Website designed and created by Kevin Chen
-Drawn up using Adobe XD, coded with Brackets
+A responsive website showcasing my personal projects, designs, and hobbies. 
+Prototyped in Adobe XD and coded in Brackets with HTML/CSS
